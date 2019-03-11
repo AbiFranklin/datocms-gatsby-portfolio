@@ -41,15 +41,11 @@ export const query = graphql`
       }
       title
       excerpt
-      
       }
       descriptionNode {
         childMarkdownRemark {
           html
         }
       }
-      
-      }
-    }
   }
 `
